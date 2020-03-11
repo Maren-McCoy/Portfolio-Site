@@ -1,0 +1,393 @@
+@charset "utf-8";
+/*  Global Styles
+-------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body, header {
+  height: 100%;
+display: table;
+  width: 100%;
+}
+body {
+  margin:0;
+}
+
+.headerspace {
+	margin: 40px;
+}
+
+
+header, main, footer {
+  display: table-row;
+}
+header, footer {
+  height: 1px;
+}
+body {
+  color: #2A363B;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Alegreya Sans';
+  font-size: 18px;
+  line-height: 1.6;
+}
+img {
+  width: 300px;
+}
+h1 {
+  font-size: 75px;
+  margin: 5px;
+  color: rgba(255, 32, 88, 0.7);
+  text-shadow: 7px 7px 0 rgb(131, 189, 126);
+	margin: 40px; }
+h2 {
+  margin: 0 0 1rem;
+  font-size: 30px;
+	margin: 40px;
+}
+h3 {
+  margin-bottom: 0;
+}
+.content-wrap {
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.herobanner {
+  height: auto;
+  width: 100%;
+}
+.divider > section {
+  border-bottom: 1px dashed;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+/*  Profile
+-------------------------*/
+header {
+  background: #2A363B;
+  color: #F7FFF7;
+}
+/*  Projects
+-------------------------*/
+.projects {
+  color: #2A363B;
+  background: #F7FFF7;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #E84A5F;
+  padding: 20px;
+}
+.btn {
+  color: #F7FFF7;
+  background: rgb(241, 170, 153);
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn:hover {
+  background: rgb(232, 74, 95, 80%);
+}
+.project-item {
+<<<<<<< HEAD
+  overflow: hidden;
+=======
+    overflow: hidden;
+    border-bottom: 1px dashed;
+    padding: 25px 0;
+}
+<<<<<<< HEAD
+=======
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+
+>>>>>>> 7835f6d6dee031986cc4862398123a7bc0a81fe1
+
+.project-item img {
+    float: left;
+    margin-right: 20px;
+>>>>>>> 699f6ec33888280c4fb307258cc7d9ceb3aefd9a
+}
+.project-item h3 {
+  margin-top: 0;
+}
+/*  Education
+-------------------------*/
+<<<<<<< HEAD
+#Education {
+  color: #2A363B;
+  background-color: #FECEAB;
+}
+#Contact {
+  max-width: 100%;
+}
+/* ContactForm -----------*/
+#ContactForm {
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+  color: #2A363B;
+=======
+.education {
+<<<<<<< HEAD
+color:#2A363B;
+background-color: #FECEAB;
+=======
+    background: #FECEAB ;
+    color:#2A363B;
+>>>>>>> 7835f6d6dee031986cc4862398123a7bc0a81fe1
+    
+>>>>>>> 699f6ec33888280c4fb307258cc7d9ceb3aefd9a
+}
+/*  Contact Info
+-------------------------*/
+footer {
+  background: #2A363B;
+  color: #F7FFF7;
+  margin: 0;
+}
+#social {
+  list-style: none;
+  padding: 0;
+  display: inline block;
+}
+#social a {
+  padding: 15px;
+}
+/*  Navbar/Dropdown
+-------------------------*/
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #2A363B;
+  border: 0px;
+  margin: 0px;
+}
+li {
+  float: left;
+  font-size: 20px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #E84A5F;
+}
+nav {
+  font-size: 1rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+.dropdown:hover {
+  background-color: #E84A5F;
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 16px 18px;
+  background-color: inherit;
+  font-family: inherit;
+  margin-bottom: 1px;
+  margin-top: 2px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(253, 228, 209);
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 14px 18px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #FECEAB;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#SocialCTA {
+  margin-bottom: 5px;
+}
+.fmessage textarea {
+  display: block;
+  box-sizing: border-box;
+  font: 0.9em Lato, Helvetica, sans-serif;
+  width: 90%;
+  height: 6em;
+  overflow: auto;
+  padding: 0.6em 0.8em;
+}
+.register-form {
+  line-height: 1.4;
+}
+.form-group {
+  /*background: #F6DDCE;*/
+  margin-bottom: 1em;
+  padding: 10px;
+}
+.form-group ul {
+  list-style: none;
+  margin: 0 0 2em;
+  padding: 0;
+  display: flex;
+  flex-direction: column
+}
+.form-group li {
+  margin-bottom: 0.5em;
+}
+.form-group h3 {
+  margin-bottom: 1em;
+}
+.form-fields input[type="text"], .form-fields input[type="tel"], .form-fields input[type="url"], .form-fields input[type="email"], .form-fields input[type="number"], .form-fields select, textarea {
+  box-sizing: border-box;
+  padding: 0.6em 0.8em;
+  color: #999;
+  background: #f7f7f7;
+  border: 1px solid #e1e1e1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.9em;
+  text-decoration: none;
+  line-height: normal;
+  max-height: 3em;
+}
+.form-fields input[type="text"]:focus, .form-fields input[type="tel"]:focus, .form-fields input[type="url"]:focus, .form-fields input[type="email"]:focus, .form-fields input[type="number"]:focus, .form-food textarea:focus, .form-fields select:focus {
+  color: #333;
+  border: 1px solid #C17CCF;
+  outline: none;
+  background: #f2f2f2;
+}
+.form-food textarea {
+  display: block;
+  box-sizing: border-box;
+  font: 0.9em Lato, Helvetica, sans-serif;
+  width: 90%;
+  height: 6em;
+  overflow: auto;
+  padding: 0.6em 0.8em;
+  color: #999;
+  background: #f7f7f7;
+  border: 1px solid #e1e1e1;
+  line-height: normal;
+}
+.register-btn {
+  border-radius: 0px 2px 2px 0px;
+  box-sizing: content-box;
+  background: #8B798C;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
+  padding: 0.35em 0.75em;
+  border: none;
+  font-size: 1.1em;
+  text-decoration: none;
+  cursor: pointer;
+}
+.register-btn:hover, .register-btn:focus {
+  background: #C17CCF;
+}
+/*flex it*/
+.register-form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -2em;
+}
+.form-group {
+  flex: 1 0 300px;
+  margin-right: 2em;
+}
+.form-submit {
+  flex: 0 0 100%;
+}
+.form-fields li {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-fields input[type="text"], .form-fields input[type="tel"], .form-fields input[type="url"], .form-fields input[type="email"], .form-fields input[type="number"], .form-fields select {
+  flex: 1 0 230px;
+}
+textarea {
+  flex: 1 0 230px;
+  min-height: 10rem;
+}
+.form-fields label {
+  flex: 1 0 90px;
+  max-width: 200px;
+}
+.form-skills, .form-workshop {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.form-skills li {
+  width: 145px;
+}
+.form-workshop li {
+  flex: 1 0 200px;
+}
+.wrapper {
+	max-width: 1200px; 
+}
+@media screen and (min-width: 750px) {
+  footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+  .education-item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    column-gap: 20px;
+  }
+  #social {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 749px) {
+  h1 {
+    font-size: 65px;
+    margin: 3px;
+    color: rgba(255, 32, 88, 0.7);
+    text-shadow: 4px 4px 0 rgb(131, 189, 126);
+	}}

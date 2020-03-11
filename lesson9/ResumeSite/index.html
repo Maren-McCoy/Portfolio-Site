@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mars McCoy</title>
+<link href="myStyles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Alegreya Sans" rel="stylesheet" >
+<style></style>
+</head>
+<body class="outer">
+  <main>
+    <nav>
+      <ul>
+        <li><a href="#">Introduction</a></li>
+        <div class="dropdown">
+          <button class="dropbtn">Featured Products </button>
+          <div class="dropdown-content"> <a href="https://www.behance.net/gallery/86638091/Book-Cover-Redesigns" target="_blank">Book Cover Redesigns</a> <a href="https://www.behance.net/gallery/86538013/Day-Night-Logo"target="_blank">Day &amp; Night Logo</a> <a href="https://www.behance.net/gallery/86634419/Jen-Gardens" target="_blank">Jené Gardens</a> </div>
+        </div>
+        <li><a href="#Education">Education</a>top</li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- ***********************  ABOUT / PROFILE  *********************** -->
+    <header>
+      <div class="content-wrap"> 
+		<img src="images/hero.png" class="herobanner">
+        <h1 class="headerspace">Mars McCoy</h1>
+        <h2 class="headerspace">Graphic Designer</h2>
+        <p class="headerspace">My name is Bella Maren McCoy, but i go by Mars.  I am currently in my second year at Wake Tech, pursuing an Associate of Applied Science degree in Advertising and Graphic Design. Though my original plan was to become a dental hygienist, I decided to work towards becoming a graphic designer to put my creative talents to good use. My goal as a future graphic designer is to work in product design fields, designing merchandise for companies and franchises, and possibly opening a successful online shop for my pieces.</p>
+        <p class="headerspace">Ever since I was young, I’ve been told I’ve always been artistic and creative, like many of my family members before me. I love drawing digitally and posting my pieces to my Instagram, as well as doing commissions and pin making. A lot of my artistic talent comes from my Dad, who is also a graphic designer. He has taught and helped me a lot over the years. I have also been lucky enough to have had a lot of support and resources from my family and friends. With all of this in mind, I thought it only made sense that I go to school for graphic design..</p>
+      </div>
+    </header>
+    <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+    <section class="projects">
+      <div class="content-wrap divider">
+        <h2>Featured Projects</h2>
+        <!-- Copy the whole <section> block to add more projects. -->
+        <section class="project-item"> <img src="images/hiddenthings.png" alt="bookcover">
+          <h3>Book Cover Redesigns</h3>
+          <p>For this assignment, we were tasked with redesigning three book covers related by genre or author to which i used a geometric theme </p>
+          <a class="btn" href="https://www.behance.net/gallery/86638091/Book-Cover-Redesigns" target="_blank">View project</a> </section>
+        <section class="project-item"> <img src="images/daynight.png"alt="Ambersand Day&Night Logo">
+          <h3>Day &amp; Night Logo </h3>
+          <p>I were challenged with creating a logo with an ampersand, which was a little difficult due to creating a logo focused around an ampersand sign but also fun. </p>
+          <a class="btn" href="https://www.behance.net/gallery/86538013/Day-Night-Logo" target="_blank">View project</a> </section>
+        <section class="project-item"> <img src="images/jenegardens.png" project-thumbnail.png  alt="Jené Gardens Logo">
+          <h3>Jené Gardens</h3>
+          <p>For a school assignment, we were tasked with making an amalgam logo. We were further tasked with creating mockups that have relation to our fictitious brand. </p>
+          <a class="btn" href="https://www.behance.net/gallery/86634419/Jen-Gardens" target="_blank">View project</a> </section>
+        <!-- End of Project block. --> 
+      </div>
+    </section>
+    <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
+    <section id="Education">
+      <div class="content-wrap item-details divider">
+        <h2>Education</h2>
+        <!-- Copy this whole <section> block to add more schools. -->
+        <section class="education-item">
+          <div class="education-detail">
+            <h3>Wake Technical Community Colledge - Garner/Raleigh</h3>
+            <p>Associates in Applied Sciences, Advertising and Graphic Design</p>
+            <p>2019-current</p>
+          </div>
+          <div class="education summary">
+            <p>For my Associate's Degree, I have chosed to attend Wake Technical Community College. While attending Wake Tech, I have made it onto the Wake Tech's Honor Roll, achieving President's List twice, so far. I have been invited to the National society of Leadership and Success. I have also recently been invited to join the Honors Program. </p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section id="ContactForm">
+      <div class="content-wrap">
+        <form class="register-form">
+          <section class="form-group content-wrap">
+            <h2>Personal Contact Form</h2>
+            <br/>
+            <br/>
+            <ul class="form-fields">
+              <li>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="name" class="text-input">
+              </li>
+              <li>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="name" id="lastname" class="text-input">
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="text-input">
+              </li>
+              <li style="flex-wrap: wrap;">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" class="text-input">
+              </li>
+              <li>
+                <label for="state">Area of Interest</label>
+                <select class="select-menu" id="state" name="state">
+                  <option value="AL">Graphic Design</option>
+                  <option value="AK">Illustration</option>
+                  <option value="AZ">Wallpaper</option>
+                  <option value="AR">Wooden Pin</option>
+                  <option value="CA">Sticker Design</option>
+                </select>
+              </li>
+              <li>
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" id="subject" class="text-input">
+              </li>
+              <li>
+                <label for="food-options">Message</label>
+                <textarea id="message" name="message" class="text-area"></textarea>
+              </li>
+            </ul>
+            <button style="display: flex; justify-content:center" type="submit" class="btn">Register</button>
+          </section>
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
+  
+  <footer id="Contact">
+    <div class="content-wrap">
+      <h2 id="SocialCTA">Let's Keep in Touch!</h2>
+      
+      <!-- Social media and contact links. Add or remove any networks. -->
+      <ul id="social">
+        <li><a href="maren.mcccoy.designs@gmail.com">maren.mccoy.designs@gmail.com</a></li>
+        <li><a href="https://www.instagram.com/_.maren.mccoy.designs._/http://yourwebsite.com" target="_blank">Instagram</a></li>
+        <li><a href="https://twitter.com/Maren_McCoy_" target="_blank">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/maren-mccoy-835553187/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.facebook.com/marenmccoydesigns/?modal=admin_todo_tour" target="_blank">Facebook</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
